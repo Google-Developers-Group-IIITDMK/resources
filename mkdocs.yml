@@ -1,5 +1,5 @@
 site_name: SparkMart Documentation
-site_description:  Blockchain‑Enabled Green & Secure Logistics
+site_description: Blockchain‑Enabled Green & Secure Logistics
 site_author: SparkMart Team
 site_url: https://sparkmart.github.io/docs
 
@@ -37,11 +37,10 @@ plugins:
   - panzoom:
       include_selectors:
         - ".mermaid"
-      key: "ctrl"         # Hold Ctrl + scroll/drag
+      key: "ctrl" # Hold Ctrl + scroll/drag
       hint_location: top
       always_show_hint: true
       full_screen: true
-
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -66,19 +65,16 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
-
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
-  # - Blockchain‑Enabled: features/blockchain.md
-  - Smart Tax: features/smart-tax.md
-  # - eDot: features/edot.md
+  - Resouces: features/resources.md
   # - API Reference:
-    # - Authentication: api/authentication.md
-    # - Endpoints: api/endpoints.md
+  # - Authentication: api/authentication.md
+  # - Endpoints: api/endpoints.md
   - Support:
-    - FAQ: support/faq.md
-    - Contact: support/contact.md
+      - FAQ: support/faq.md
+      - Contact: support/contact.md
 
 extra:
   social:
