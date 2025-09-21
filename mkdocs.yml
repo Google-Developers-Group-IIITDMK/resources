@@ -1,22 +1,20 @@
-site_name: SparkMart Documentation
-site_description: Blockchain‑Enabled Green & Secure Logistics
-site_author: SparkMart Team
-site_url: https://sparkmart.github.io/docs
+site_name: GDG on Campus IIITDM Kurnool
+site_description: Resources, Guides & Community Documentation for GDG on Campus IIITDMK
+site_author: GDG IIITDMK Team
+site_url:https://github.com/Google-Developers-Group-IIITDMK/resource
 
 theme:
   name: material
   palette:
-    # Palette toggle for light mode
     - scheme: default
-      primary: indigo
-      accent: purple
+      primary: blue
+      accent: green
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    # Palette toggle for dark mode
     - scheme: slate
-      primary: indigo
-      accent: purple
+      primary: blue
+      accent: green
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -26,6 +24,7 @@ theme:
     - navigation.expand
     - navigation.path
     - navigation.top
+    - navigation.instant
     - search.highlight
     - search.share
     - content.code.copy
@@ -37,7 +36,7 @@ plugins:
   - panzoom:
       include_selectors:
         - ".mermaid"
-      key: "ctrl" # Hold Ctrl + scroll/drag
+      key: "ctrl"
       hint_location: top
       always_show_hint: true
       full_screen: true
@@ -47,7 +46,11 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -59,19 +62,11 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
 
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
-  - Resouces: features/resources.md
-  # - API Reference:
-  # - Authentication: api/authentication.md
-  # - Endpoints: api/endpoints.md
+  - Resources: features/resources.md
   - Support:
       - FAQ: support/faq.md
       - Contact: support/contact.md
@@ -79,10 +74,10 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/vibeguide-ai
+      link: https://github.com/gdg-iiitdmk
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/vibeguide_ai
+      link: https://twitter.com/gdgiiitdmk
     - icon: fontawesome/solid/globe
-      link: https://vibeguide.ai
+      link: https://iiitdm.ac.in
 
-copyright: Copyright &copy; 2025 SparkMart
+copyright: Copyright © 2025 GDG on Campus IIITDM Kurnool
