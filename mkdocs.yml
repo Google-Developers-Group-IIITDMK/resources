@@ -1,7 +1,8 @@
 site_name: GDG on Campus IIITDM Kurnool
 site_description: Resources, Guides & Community Documentation for GDG on Campus IIITDMK
 site_author: GDG IIITDMK Team
-site_url: https://google-developers-group-iiitdmk.github.io/resources
+site_url: https://google-developers-group-iiitdmk.github.io/resources/
+use_directory_urls: false
 
 theme:
   name: material
