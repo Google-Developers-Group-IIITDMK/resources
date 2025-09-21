@@ -1,26 +1,26 @@
-# 📚 Resources
+# Resources
 
 Here are curated resources to help you learn and grow:
 
-## 🧑‍💻 Programming
+## Programming
 
 - [GeeksforGeeks](https://www.geeksforgeeks.org/)
 - [LeetCode](https://leetcode.com/)
 - [HackerRank](https://www.hackerrank.com/)
 
-## ☁️ Cloud
+## Cloud
 
 - [Google Cloud Skills Boost](https://cloudskillsboost.google)
 - [Qwiklabs](https://www.qwiklabs.com/)
 
-## 📱 Mobile & Web
+## Mobile & Web
 
 - [Flutter](https://flutter.dev/docs)
-- [React](https://reactjs.org/docs/getting-started.html)
+- [React](https://react.dev/learn)
 
-## 🤖 Machine Learning & AI
+## Machine Learning & AI
 
 - [TensorFlow](https://www.tensorflow.org/tutorials)
 - [Kaggle](https://www.kaggle.com/learn)
 
-> 💡 Tip: Bookmark this page and check back for updated resources!
+> Tip: Bookmark this page and check back for updated resources!

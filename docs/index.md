@@ -1,4 +1,4 @@
-# 👋 Welcome to GDG on Campus IIITDM Kurnool
+# Welcome to GDG on Campus IIITDM Kurnool
 
 Google Developer Groups (GDG) on Campus at IIITDM Kurnool is a student community that learns, builds, and grows together with Google technologies.
 

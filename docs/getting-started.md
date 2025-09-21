@@ -4,7 +4,7 @@ Welcome to the community! Here’s how you can get started:
 
 1. **Join the community**
 
-   - Follow us on [Twitter](https://twitter.com/gdgiiitdmk) and [GitHub](https://github.com/gdg-iiitdmk).
+   - Follow us on [GitHub](https://github.com/Google-Developers-Group-IIITDMK/resource).
    - Stay updated with events and announcements.
 
 2. **Attend events**
